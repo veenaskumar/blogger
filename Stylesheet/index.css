@@ -1,0 +1,77 @@
+#logo>img{
+    object-fit: cover;
+    mix-blend-mode: color-burn;
+}
+#get_started:hover{
+    background-color: #3498DB;
+    color: white;
+}
+#get_started{
+    border: 1px solid #3498DB;
+    
+}
+#getstarted{
+    background-color: #3498DB;
+    /* padding-left: 10px !important; */
+    
+}
+#getstarted>a{
+    text-decoration: none !important;
+    color: white !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    /* color: white; */
+
+}
+#get_started>a{
+    text-decoration: none;
+
+
+}
+#get_started:hover{
+    text-decoration: none;
+    color: white;
+    
+
+    
+}
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: whitesmoke;
+    background-image:url("https://img.freepik.com/free-vector/abstact-hexagon-background-memphis-style_1017-31955.jpg?w=996&t=st=1660384088~exp=1660384688~hmac=32190c09fac738cc238e54cc29ee3fb4b01046820538b3ece1dd6ebbd52ccf13");
+    background-repeat: no-repeat;
+    background-size: 200%;   
+}
+h1{
+    font-size: 50px;
+    color: aliceblue !important ;
+}
+h4{
+    font-size: 30px;
+}
+.main{
+    border: 1px solid black;
+    padding:60px;
+    margin: 20px;
+    width:400px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px 5px black;
+    opacity: 0.1px;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+::placeholder{
+    font-size: smaller;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding:10px;
+    color:black;
+    background: whitesmoke;
+
+}
+#b{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: smaller;
+    font-weight: bold;
+}
+

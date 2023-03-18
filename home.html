@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="./Stylesheet/home.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<style>
+    #logo>img{
+        object-fit: cover;
+    }
+    #get_started:hover{
+   background-color: #3498DB;
+   color: white;
+}
+#get_started{
+   border: 1px solid #3498DB;
+}
+#getstarted{
+   background-color: #3498DB;
+}
+#getstarted>a{
+   text-decoration: none !important;
+   color: white !important;
+}
+</style>
+<body>
+    <nav class="navbar container">
+        <a href="#" class="navbar-brand h1" id="logo">
+            <img src="./images/572-768x591.png" alt="" height="70px" width="150px">
+        </a>
+        
+        <div>
+            <ul class="nav px-3">
+                <!-- <li class="nav-item">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search this blog">
+                        <div class="input-group-append">
+                          <button class="btn btn-secondary" type="button">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                              </svg>
+                          </button>
+                        </div>
+                      </div>
+                      
+                </li> -->
+                
+                <li class="nav-item">
+                    <a href="#" class="nav-link active">Post</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./courses.html" class="nav-link text-black">Stats</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./supporters.html" class="nav-link text-black">settings</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-black">Premium</a>
+                </li>
+               
+                <li class="nav-item">
+                    <a href="./contact.html" class="nav-link text-black">New Post</a>
+                </li>
+                
+                <li class="nav-item">
+                    <button class="btn nav-link text-white rounded-pill" id="getstarted">
+                       <a href="./index.html"> Log out</a>
+                    </button>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+    <!--card-->
+    <div class="container-fluid d-flex flex-column justify-content-center align-items-center gap-5">
+        <div class="card" style="width: 30rem;">
+            <img class="card-img-top" src="./images/blogging_1.webp" alt="Card image cap" class="position-relative" id="mainimg">
+            <div class="position-absolute d-flex align-items-center gap-1">
+                <img src="./images/person/person_1.jpeg" alt="" class=" rounded-pill m-2" height="40px" width="40px" id="subimg">
+                <h4 class="text-white">Rohith</h4>
+            </div>
+           <div class="d-flex align-items-center">
+            <div class="card-body">
+                <p class="card-text fw-bold">Learn WEB3</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit....</p>
+              </div>
+              <div class="px-3 d-flex flex-column gap-2">
+                  <button class="rounded-pill btn-primary btn">view</button>
+                  <p class="text-secondary">14.03.2020</p>
+              </div>    
+           </div>
+            
+          </div>
+          <!---->
+          <div class="card" style="width: 30rem;">
+            <img class="card-img-top" src="https://images.pexels.com/photos/965117/pexels-photo-965117.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Card image cap" class="position-relative" id="mainimg">
+            <div class="position-absolute d-flex align-items-center gap-1">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_xDRYjbp8NJuIrBjJDtR_yjl67lLwNDOhtKdWoCro5q5yT9nFv3LXO8U5R7joUfkBcq4&usqp=CAU" alt="" class=" rounded-pill m-2" height="40px" width="40px" id="subimg">
+                <h4 class="text-white">Sanjay</h4>
+            </div>
+           
+            <div class="d-flex align-items-center">
+                <div class="card-body">
+                    <p class="card-text fw-bold">About Today</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit....</p>
+                  </div>
+                  <div class="px-3 d-flex flex-column gap-2">
+                      <button class="rounded-pill btn-primary btn">view</button>
+                      <p class="text-secondary">14.03.2020</p>
+                  </div>    
+               </div>
+          </div>
+          <!---->
+          <div class="card" style="width: 30rem;">
+            <img class="card-img-top" src="https://media.istockphoto.com/id/626669886/photo/blogging-blog-word-coder-coding-using-laptop.jpg?s=1024x1024&w=is&k=20&c=xT2fsTWDolW5yPgElAwoVtR0aM7OKLuHu-kPlmvTzGw=" alt="Card image cap" class="position-relative" id="mainimg">
+            <div class="position-absolute d-flex align-items-center gap-1">
+                <img src="data:image/jpeg;base64,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" alt="" class=" rounded-pill m-2" height="40px" width="40px" id="subimg">
+                <h4 class="text-white">Linga</h4>
+            </div>
+           
+            <div class="d-flex align-items-center">
+                <div class="card-body">
+                    <p class="card-text fw-bold">About IV</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit....</p>
+                  </div>
+                  <div class="px-3 d-flex flex-column gap-2">
+                      <button class="rounded-pill btn-primary btn">view</button>
+                      <p class="text-secondary">14.03.2020</p>
+                  </div>    
+               </div>
+          </div>
+    </div>
+   
+    
+  
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+
+</body>
+</html>
